@@ -7,31 +7,31 @@ import { Works } from "./sections/works/Works";
 import ReactToPrint from "react-to-print";
 import { useRef } from "react";
 import { Courses } from "./sections/courses/Courses";
-import "./print.scss"
+import { useReactToPrint } from "react-to-print";
+
+import "./print.scss";
 function App() {
   const componentRef = useRef();
 
+  const handlePrint = useReactToPrint({
+    content: () => componentRef.current,
+    documentTitle:'Mohamd Almahdi 00971522215489'
+  });
+
   return (
-    <div>
-      <ReactToPrint
-        trigger={() => <button>Print this out!</button>}
-        content={() => componentRef.current}
-        documentTitle="Mohamd Almahdi +971522215489"
-      />
-      <div className="cv" ref={componentRef}>
-        <Header />
-        <hr />
-        <Summary />
-        <DigitalSkills />
-        <hr />
-        <Works />
-        <hr />
-        <Education />
-        <hr />
-        <Languages />
-        <hr />
-        <Courses />
-      </div>
+    <div className="cv" ref={componentRef} onClick={() => handlePrint()}>
+      <Header />
+      <hr />
+      <Summary />
+      <DigitalSkills />
+      <hr />
+      <Works />
+      <hr />
+      <Education />
+      <hr />
+      <Languages />
+      <hr />
+      <Courses />
     </div>
   );
 }

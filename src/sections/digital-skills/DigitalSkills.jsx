@@ -30,7 +30,9 @@ export const DigitalSkills = () => (
 
     {info_digital.map((item) => (
       <div>
-        <h2>{item.name}</h2>
+        <div className="h2 bold" style={{ padding: "10px 0px" }}>
+          {item.name}
+        </div>
         <div className="tag-contaienr">
           {item.data.map((tag, index) => (
             <div className="tag">{tag} </div>

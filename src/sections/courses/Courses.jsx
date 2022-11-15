@@ -1,7 +1,7 @@
 export const Courses = () => (
   <div>
     <div className="h2 bold">Courses</div>
-    <br />
+    
     <div>
       <div className="h3">* three.js Journey</div>
 
@@ -11,7 +11,7 @@ export const Courses = () => (
       </div>
     </div>
 
-    <br />
+    
 
     <div className="h3">* GSAP 3 EXPRESS</div>
   </div>
