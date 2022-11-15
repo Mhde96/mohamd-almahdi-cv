@@ -1,0 +1,16 @@
+.digital-skills-styles {
+  font-family: consola;
+
+  .tag-contaienr{
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .tag {
+    border: 1px solid #000000;
+    margin-right: 5px;
+    padding: 2px 5px;
+    border-radius: 1px;
+    margin-bottom: 5px;
+  }
+}

@@ -1,0 +1,104 @@
+[
+  {
+    "name": "Silwana InfoTec",
+    "data": [
+      {
+        "name": "Golcoin",
+        "link": "https://golcoin.io",
+        "description": "official website for cryptocurrency golcoin.",
+        "features": [
+          "create creative 3d background by threejs.",
+          "i had transform lottie file animation to handy animation by framer motion.",
+          "analysis website by pagespeed.web.dev and got perfomance 86% when we have large files in this small website in the start was 36%."
+        ],
+        "libraries": [
+          "ReactJs",
+          "typescript",
+          "Webpack",
+          "@react-three/fiber",
+          "facebook graph api",
+          "react-bootstrap",
+          "framer-motion"
+        ]
+      },
+      {
+        "name": "Arab Marketing Agency",
+        "link": "https://arabmarketingagency.org/"
+      },
+      {
+        "name": "MetaConnect",
+        "link": "https://www.metaconnectpro.com/"
+      },
+      {
+        "name": "MetaGols",
+        "link": "https://metagols.com/"
+      },
+      {
+        "name": "Golex io",
+        "link": "https://metagols.com/"
+      }
+    ]
+  },
+
+  {
+    "name": "FREELANCE",
+    "data": [
+      {
+        "name": "Boss Accounting ",
+        "link": "",
+        "features": ["Accounting System "],
+        "libraries": ["ReactJs", "Redux , react navigation"]
+      },
+      {
+        "name": "PERFUMEAPP",
+        "link": "",
+        "features": [
+          "React Native Cross-platform mobile Application android and ios",
+          "E-commerce for Perfumes",
+          "Designing Ui-Ux By Adobe Xd",
+          "Creating specific perfume"
+        ]
+      },
+      {
+        "name": "Market Invoice",
+        "link": "",
+        "features": [
+          "Windows Application ( WPF )",
+          "Microsoft Sql Server local db",
+          "Dosen’t need access to internet"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mobile Developer / Jedo App",
+    "data": [
+      {
+        "name": "JedoApp ",
+        "link": "https://apps.apple.com/US/app/id1515887569?mt=8",
+        "features": [
+          "React Native Cross-platform mobile Application android and ios",
+          "Redux , react navigation ,react-native-reanimated ,google maps , firebase ,",
+          "google and facebook sign , notification and more....",
+          "App Store https://apps.apple.com/US/app/id1515887569?mt=8",
+          "Google Play https://play.google.com/store/apps/details?id=com.jedo"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "GO APPLICATION",
+    "data": [
+      {
+        "name": "shubrumah",
+        "link": "https://shubrumah.net",
+        "features": [
+          "working in startup company inside a team up to 10 developer",
+          " using ReactJs i was building an admin panel for project that take care of people in Haj and Omrah",
+          "consuming api , customizing admin panel theme with rolls and localization",
+          "working on agile methods by doing daily standup meeting then on my assigned task in Jira"
+        ]
+      }
+    ]
+  }
+]

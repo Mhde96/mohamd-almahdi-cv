@@ -1,0 +1,75 @@
+.header-styles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  font-family: "Nunito", sans-serif;
+
+  .img {
+    width: 33.33%;
+    object-fit: contain;
+    z-index: 1;
+    border-radius: 100px;
+    // border: 1px solid black;
+    height: 150px;
+    max-width: 150px;
+  }
+
+  .profile {
+    width: 67.67%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    z-index: 1;
+
+    .my-name {
+      width: 90%;
+
+      font-size: 36px;
+    }
+
+    .my-carrer {
+      // color: white;
+    }
+  }
+}
+
+.contact {
+  display: flex;
+  // justify-content: space-around;
+  align-items: center;
+  padding: 5px 15px;
+  width: 6cm;
+}
+
+.content {
+  padding-top: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  align-items: flex-start;
+  vertical-align: middle;
+  
+}
+
+.fly-background {
+  display: flex;
+  flex-wrap: wrap;
+
+  // position: absolute;
+  // background: black;
+  // color: white;
+  // top: 340px;
+  // z-index: 0;
+  // width: 21cm;
+  // height: 100px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  padding-right: 10px;
+}
