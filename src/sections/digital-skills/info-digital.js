@@ -58,8 +58,9 @@ export const info_digital = [
     ],
   },
   {
-    name: "ThreeJs",
+    name: "web 3d development",
     data: [
+      "ThreeJs",
       "@react-three/fiber",
       "@react-three/drei",
       "@react-three/gltfjsx",
@@ -70,8 +71,10 @@ export const info_digital = [
       "@react-spring/three",
       "react-use-gesture",
       "framer-motion/three",
+      "react-three-csg",
       "theaterJs",
       "zustand",
+      "Matterport"
     ],
   },
 
