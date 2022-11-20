@@ -69,12 +69,18 @@ export const info_digital = [
       "@react-three/cannon",
       "@react-three/a11y",
       "@react-spring/three",
-      "react-use-gesture",
+      "@use-gesture/react",
       "framer-motion/three",
       "react-three-csg",
       "theaterJs",
       "zustand",
-      "Matterport"
+      "Matterport",
+      "maath",
+      "valtio",
+      "jotai", 
+      "leva",
+      "three.meshline"
+
     ],
   },
 
