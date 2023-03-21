@@ -18,6 +18,6 @@ export const my_info_content = [
   },
   {
     path: "assets/icons/birthday.svg",
-    value: "27/01/1997",
+    value: "28/01/1997",
   },
 ];

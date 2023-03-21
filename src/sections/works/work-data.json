@@ -3,7 +3,7 @@
     "name": "Silwana Infotech",
     "data": [
       {
-        "name": "Golcoin",
+        "name": "GolC 3d",
         "link": "https://golcoin.io",
         "libraries": [
           "ReactJs",
@@ -13,6 +13,11 @@
           "facebook graph api",
           "react-bootstrap",
           "framer-motion"
+        ],
+        "features": [
+          "is a cryptocurrency landing page that showcases the features of buying and selling.",
+          "using React Three Fiber to build user experiance ",
+          "It also has a live exchange rate"
         ]
       },
       {
@@ -31,8 +36,8 @@
     "data": [
       {
         "name": "Boss Accounting ",
-        "link": "",
-        "features": ["Fullstack Developer and mobile application","Reactjs,ReactNative and Laravel"],
+        "link": "http://64.227.120.186/",
+        "features": ["Fullstack Developer", "Reactjs, and Laravel"],
         "libraries": ["ReactJs", "Redux , react navigation"]
       },
       {

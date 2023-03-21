@@ -35,7 +35,7 @@ export const info_digital = [
     name: "ReactJs",
     data: [
       "React Hooks",
-      "Redux Tolkit Saga Thunk",
+
       "nextJs",
       "react-router",
       "formik",
@@ -47,7 +47,7 @@ export const info_digital = [
       "react-query",
       "react-table",
       "react-select",
-      
+
       "react-contexify",
       "GraphQl",
       "react-apollo",
@@ -73,14 +73,26 @@ export const info_digital = [
       "framer-motion/three",
       "react-three-csg",
       "theaterJs",
-      "zustand",
       "Matterport",
       "maath",
-      "valtio",
-      "jotai", 
       "leva",
-      "three.meshline"
-
+      "three.meshline",
+    ],
+  },
+  {
+    name: "state management",
+    data: [
+      "Redux Tolkit Saga Thunk",
+      "zustand",
+      "indexedDb dexie",
+      "dexie-react-hooks",
+      "@hookstate/core",
+      "recoil",
+      "xstate/react",
+      "mobx-react",
+      "Rematch",
+      "jotai",
+      "valtio",
     ],
   },
 
@@ -97,7 +109,13 @@ export const info_digital = [
   },
   {
     name: "Backend & Database",
-    data: ["Laravel", "NodeJS/Express.js", "MySQL", "Microsoft SQL Servier","MongoDb"],
+    data: [
+      "Laravel",
+      "NodeJS/Express.js",
+      "MySQL",
+      "Microsoft SQL Servier",
+      "MongoDb",
+    ],
   },
   {
     name: "Programing Language",
