@@ -14,7 +14,7 @@ export const my_info_content = [
 
   {
     path: "assets/icons/location.svg",
-    value: "Barsh 1,Dubai(UAE)",
+    value: "Dubai(UAE)",
   },
   {
     path: "assets/icons/birthday.svg",

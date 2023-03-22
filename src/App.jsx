@@ -4,7 +4,6 @@ import { Header } from "./sections/header/Header";
 import { Languages } from "./sections/languages/Languges";
 import { Summary } from "./sections/summary/Summary";
 import { Works } from "./sections/works/Works";
-import ReactToPrint from "react-to-print";
 import { useRef } from "react";
 import { Courses } from "./sections/courses/Courses";
 import { useReactToPrint } from "react-to-print";
@@ -15,7 +14,7 @@ function App() {
 
   const handlePrint = useReactToPrint({
     content: () => componentRef.current,
-    documentTitle:'Mohamd Almahdi 00971522215489'
+    documentTitle: "Mohamd Almahdi 00971522215489",
   });
 
   return (
