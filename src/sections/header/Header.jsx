@@ -1,9 +1,12 @@
 import "./header-styles.scss";
 import { my_info_content } from "./info-content";
-const Contact = ({ path, value }) => (
+const Contact = ({ path, value, link }) => (
   <div className="contact">
     <img className="icon" src={path} />
-    <div className="content">{value}</div>
+
+    <a href={link} target="_blank" rel="noreferrer">
+      {value}
+    </a>
   </div>
 );
 
@@ -23,9 +26,13 @@ export const Header = () => (
 
     <div className="fly-background">
       {my_info_content.map((item) => (
-        <Contact key={item.value} path={item.path} value={item.value} />
+        <Contact
+          key={item.value}
+          path={item.path}
+          value={item.value}
+          link={item.link}
+        />
       ))}
-      
     </div>
   </>
 );

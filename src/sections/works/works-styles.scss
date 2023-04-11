@@ -1,6 +1,11 @@
 .works-styles {
-  .company-name {
+  .company-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
     padding-bottom: 5px;
+  }
+  .company-name {
   }
   .company {
     display: flex;

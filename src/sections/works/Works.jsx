@@ -1,5 +1,5 @@
 import "./works-styles.scss";
-import companies from "./work-data.json";
+import companies from "./work-data";
 
 export const Works = () => (
   <div className="works-styles">
@@ -8,7 +8,10 @@ export const Works = () => (
     <div style={{ display: "flex", flexDirection: "column", gap: 5 }}>
       {companies.map((company) => (
         <div style={{ paddingBottom: 8 }}>
-          <div className="h2 company-name ">{company?.name}</div>
+          <div className="company-container">
+            <div className="h2 company-name ">{company?.name}</div>
+            <div> {company.time}</div>
+          </div>
           <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
             {company?.data?.map((item) => (
               <div>
@@ -26,10 +29,26 @@ export const Works = () => (
                         paddingLeft: 12,
                       }}
                     />
-                    <div className="link"> {item.name} </div>{" "}
+                    <div className="link"> {item.name} </div>
+
                     {item?.description}
                   </div>
                 </div>
+                {item.link && (
+                  <div>
+                    <img
+                      src="assets/icons/star.svg"
+                      style={{
+                        width: 7,
+                        height: 7,
+                        paddingRight: 8,
+                        paddingLeft: 18,
+                      }}
+                    />
+                    {item.link}
+                  </div>
+                )}
+
                 {item?.features?.map((feature) => (
                   <div>
                     <img

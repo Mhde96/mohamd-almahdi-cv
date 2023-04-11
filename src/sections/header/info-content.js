@@ -20,4 +20,9 @@ export const my_info_content = [
     path: "assets/icons/birthday.svg",
     value: "28/01/1997",
   },
+  {
+    path: "assets/icons/linkedin.svg",
+    value: "mohamd-al-mahdi",
+    link: "https://www.linkedin.com/in/mohamd-al-mahdi-30674389/",
+  },
 ];
