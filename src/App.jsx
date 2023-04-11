@@ -9,6 +9,8 @@ import { Courses } from "./sections/courses/Courses";
 import { useReactToPrint } from "react-to-print";
 
 import "./print.scss";
+import { CompaniesSection } from "./sections/companies/CompaniesSection";
+import { ProjectsScection } from "./sections/projects/ProjectsScection";
 function App() {
   const componentRef = useRef();
 
@@ -23,6 +25,10 @@ function App() {
       <hr />
       <Summary />
       <DigitalSkills />
+      <hr />
+      <CompaniesSection />
+      <hr />
+      <ProjectsScection />
       <hr />
       <Works />
       <hr />

@@ -1,0 +1,13 @@
+#companies-styls {
+  .title {
+    display: flex;
+    gap: 5px;
+  }
+  .company-name {
+    font-weight: 600;
+  }
+
+  .responsibilities {
+    padding-left: 10px;
+  }
+}
