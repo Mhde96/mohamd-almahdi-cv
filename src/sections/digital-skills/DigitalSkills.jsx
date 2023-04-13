@@ -1,5 +1,6 @@
 import "./digital-skills-styles.scss";
 import { info_digital } from "./info-digital";
+import classnames from "classnames";
 // const array = [
 //   "Git",
 //   "Doker",
@@ -20,25 +21,30 @@ import { info_digital } from "./info-digital";
 //   "React Bootstarap",
 // ];
 
-const native = ["React Navigation", "React Native Paper"];
-
-const backend = ["Laravel", "MySQL"];
-const language = ["JavaScript", "TypeScript", "PHP", "C#"];
 export const DigitalSkills = () => (
   <div className="digital-skills-styles">
     <hr />
-
-    {info_digital.map((item) => (
-      <div>
-        <div className="h2 bold" style={{ padding: "7px 0px" }}>
-          {item.name}
-        </div>
-        <div className="tag-contaienr">
-          {item.data.map((tag, index) => (
-            <div className="tag">{tag} </div>
-          ))}
-        </div>
-      </div>
-    ))}
+    <div className="h2 bold">Skills</div>
+    <div className="break" />
+    <div className="brek-items-from-left">
+      {info_digital.map((item) => {
+        return (
+          <div className="tag-contaienr">
+            {/* <div className="tag h5 bold">{item.name} </div> */}
+            {item.data.map((tag, index) => {
+              const classes = classnames(
+                {
+                  bold: tag?.bold,
+                  // h5: true,
+                  tag: true,
+                },
+                tag.fontSize
+              );
+              return <div className={classes}>{tag.name} </div>;
+            })}
+          </div>
+        );
+      })}
+    </div>
   </div>
 );

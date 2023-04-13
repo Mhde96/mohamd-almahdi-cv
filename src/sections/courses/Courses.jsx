@@ -5,28 +5,25 @@ export const Courses = () => {
     window.open("https://www.creativecodingclub.com/courses/gsap-3-express");
   return (
     <div>
-      <div className="h2 bold">Courses</div>
+      <div className="h3 bold">Courses</div>
 
-      <div>
-        <div className="h3 cursor" onClick={handleThreeJs}>
-          * three.js Journey
+      <div className="brek-items-from-left">
+        <div className="h5 cursor" onClick={handleThreeJs}>
+          - three.js Journey
         </div>
 
-        <div className="h4 cursor" onClick={handleThreeJs}>
+        {/* <div className="h4 cursor" onClick={handleThreeJs}>
           - i did it one with vanilla JavaScript and another time with React
           Three Fiber
+        </div> */}
+
+        <div className="h5 cursor" onClick={handleGsap}>
+          - GSAP 3 EXPRESS
         </div>
-      </div>
 
-      <div className="h3 cursor" onClick={handleGsap}>
-        * GSAP 3 EXPRESS
-      </div>
-
-      <div className="h3 cursor" onClick={handleClickGlsl}>
-        * SimonDev Shaders
-      </div>
-      <div className="h4 cursor" onClick={handleClickGlsl}>
-        - GLSL Shaders from Scratch
+        <div className="h5 cursor" onClick={handleClickGlsl}>
+          - SimonDev GLSL Shaders from Scratch
+        </div>
       </div>
     </div>
   );

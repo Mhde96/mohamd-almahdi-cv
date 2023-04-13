@@ -18,36 +18,46 @@ function App() {
 
   const handlePrint = useReactToPrint({
     content: () => componentRef.current,
-    documentTitle: "Mohamd Almahdi 00971522215489",
+    documentTitle: "Mohamd Almahdi",
+    // suppressErrors:false
   });
 
   return (
-    <div className="cv" ref={componentRef} onClick={() => handlePrint()}>
-      <Header />
-      <PortfolioSection />
-      <hr />
-      <Summary />
-      <DigitalSkills />
-      <hr />
-      <CompaniesSection />
-      <hr />
-      <ProjectsScection />
-      {/* <hr /> */}
-      {/* <Works /> */}
-      <hr />
-      <Education />
-      {/* <hr /> */}
-      {/* <Languages /> */}
-      {/* <hr /> */}
-      {/* <Courses /> */}
+    <>
+      <button onClick={() => handlePrint()}>Print</button>
+      <div className="cv" ref={componentRef}>
+        <Header />
+        {/* <PortfolioSection /> */}
+        <hr />
+        <Summary />
+        <DigitalSkills />
+        <hr />
+        <CompaniesSection />
+        {/* <hr /> */}
+        {/* <ProjectsScection /> */}
+        {/* <hr /> */}
+        {/* <Works /> */}
+        <hr />
+        <Education />
+        {/* <hr /> */}
+        {/* <Languages /> */}
+        <hr />
+        <Courses />
 
-      <br />
-      <br />
+     
 
-      <div className="end-contaienr">
-        <a href={portfolio.link} target="_blank" className="end bold h2">For More Details Check My Portfolio</a>
+<hr/>
+   {/* <br /> */}
+        <br />
+        <div className="end-contaienr">
+          <a href={portfolio.link} target="_blank" className="end bold h4">
+            <div>To Check My Projects Pleast Visit My Portfolio</div>
+            {/* <div className="h5"> {portfolio.link}</div> */}
+            <PortfolioSection />
+          </a>
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 

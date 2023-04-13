@@ -10,6 +10,10 @@ export const projectsData = [
       "material-ui",
       "Restful api",
     ],
+    features: [
+      // "is a cryptocurrency landing page that showcases the features of buying and selling.",
+      "Using NextJs & MUI to build  modern and responsive website",
+    ],
     // description: "Exchanger for Crypto Currency",
   },
   {
@@ -21,14 +25,18 @@ export const projectsData = [
     // description: "Exchanger for Crypto Currency",
     features: [
       // "is a cryptocurrency landing page that showcases the features of buying and selling.",
-      // "using React Three Fiber to build user experiance ",
+      "Using React Three Fiber & framer motion to build 3d website interactive with users ",
     ],
   },
-  {
-    name: "ArabMarketingAgency.org",
-    technologiesUsed: "ReactJs Bootstrap / News WebSite",
-    link: "https://arabmarketingagency.org/",
-  },
+  // {
+  //   name: "ArabMarketingAgency.org",
+  //   technologiesUsed: "ReactJs Bootstrap / News WebSite",
+  //   link: "https://arabmarketingagency.org/",
+  //   features: [
+  //     // "is a cryptocurrency landing page that showcases the features of buying and selling.",
+  //     // "Using React bootstrap to  ",
+  //   ],
+  // },
   // {
   //   name: "Meta Connect",
   //   // link: "https://arabmarketingagency.org/",
@@ -50,8 +58,9 @@ export const projectsData = [
     technologiesUsed: "ReactJs  Native / Android & Ios",
     // "link": "https://apps.apple.com/US/app/id1515887569?mt=8",
     features: [
-      // "App Store https://apps.apple.com/US/app/id1515887569?mt=8",
-      // "Google Play https://play.google.com/store/apps/details?id=com.jedo",
+      // "Using ReactJs/Native to build mobile Applecation ",
+      "App Store https://apps.apple.com/US/app/id1515887569?mt=8",
+      "Google Play https://play.google.com/store/apps/details?id=com.jedo",
       // "React Native Cross-platform mobile Application android and ios",
       // "Redux , react navigation ,react-native-reanimated ,google maps , firebase ,",
       // "google and facebook sign , notification and more....",

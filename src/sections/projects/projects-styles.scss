@@ -1,6 +1,6 @@
 #projects-styles {
  .project-title{
-  margin-bottom: 5px;
+  margin-bottom: 4px;
  }
   .title {
     display: flex;
@@ -15,8 +15,14 @@
     font-weight: 600;
   }
 
-  .br {
-    height: 5px;
-    // background-color: red;
+
+  .project{
+    margin-bottom: 5px;
+  }
+
+  .item{
+    margin-left: 10px;
+    display: flex;
+    align-items: end;
   }
 }
