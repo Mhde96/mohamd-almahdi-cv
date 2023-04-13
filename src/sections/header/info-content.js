@@ -23,7 +23,7 @@ export const my_info_content = [
   {
     path: "assets/icons/linkedin.svg",
     value: "mohamd-al-mahdi",
-    link: "https://www.linkedin.com/in/mohamd-al-mahdi-30674389/",
+    link: "https://www.linkedin.com/in/mohamd-al-mahdi/",
   },
 ];
 
