@@ -17,8 +17,9 @@ export const companiesData = [
   {
     name: "Jedo App",
     location: "Lebanon",
-    time: "[03-2020] => [05-2021]",
+    time: "[04-2020] => [05-2021]",
     type: "remotly",
+    work: "Mobile Developer",
     responsibilities: [
       // "Developed and maintained React Native applications for iOS and Android platforms",
       // "Worked closely with designers to ensure  efficient development of projects",
