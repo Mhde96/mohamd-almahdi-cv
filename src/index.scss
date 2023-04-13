@@ -31,15 +31,23 @@ body {
 
 .h3 {
   font-size: 18px;
-  margin-bottom: 5px;
+  margin-bottom: 3px;
 }
 .h4 {
   font-size: 16px;
   margin-bottom: 2px;
 }
+.h5 {
+  font-size: 14px;
+  margin-bottom: 2px;
+}
 
 .bold {
-  font-weight: bold;
+  font-weight: bolder;
+}
+
+.bold-2 {
+  font-weight: 600;
 }
 
 .break {
@@ -48,4 +56,28 @@ body {
 
 .cursor {
   cursor: pointer;
+}
+
+.end{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid black;
+  width: fit-content;
+}
+
+.end-contaienr{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  
+}
+
+a{
+  // all: unset;
+  color: black;
+  text-decoration: none; /* no underline */
+
 }

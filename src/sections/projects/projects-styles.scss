@@ -1,7 +1,14 @@
 #projects-styles {
+ .project-title{
+  margin-bottom: 5px;
+ }
   .title {
     display: flex;
-    gap: 10px;
+    align-items: center;
+    // gap: 10px;
+  }
+  .tec{
+    margin-left: 4px;
   }
 
   .project-name {

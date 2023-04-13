@@ -26,3 +26,9 @@ export const my_info_content = [
     link: "https://www.linkedin.com/in/mohamd-al-mahdi-30674389/",
   },
 ];
+
+export const portfolio = {
+  path: "assets/icons/portfolio.svg",
+  value: "http://portfolio.boss-accounting.com",
+  link: "http://portfolio.boss-accounting.com",
+};
