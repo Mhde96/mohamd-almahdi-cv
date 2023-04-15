@@ -97,6 +97,8 @@ export const info_digital = [
     data: [
       { name: "ReactJs", experiance: "", bold: true, fontSize: "h4" },
       { name: "NextJS", experiance: "", bold: true, fontSize: "h4" },
+      { name: "ReactNative", experiance: "", fontSize: "h5" },
+
       // { name: "Hooks", experiance: "", fontSize: "h5", bold: true },
       { name: "MUI", experiance: "", fontSize: "h5" },
       // { name: "bootstrap", experiance: "",fontSize:'h5' },
@@ -104,7 +106,7 @@ export const info_digital = [
 
       { name: "framer-motion", experiance: "", bold: true, fontSize: "h5" },
       // { name: "formik", experiance: "", fontSize: "h5" },
-      { name: "i18n", experiance: "", fontSize: "h5" },
+      // { name: "i18n", experiance: "", fontSize: "h5" },
 
       { name: "Redux ", experiance: "", bold: true, fontSize: "h5" },
       // { name: "contextAPI", experiance: "",fontSize:'h5' },
@@ -129,7 +131,13 @@ export const info_digital = [
         bold: true,
         fontSize: "h5",
       },
+      { name: "blender", experiance: "", fontSize: "h5" },
+
       { name: "Matterport", experiance: "", fontSize: "h5" },
+      { name: "git", experiance: "", fontSize: "h4", bold:true },
+      { name: "MySql", experiance: "", fontSize: "h5" },
+      { name: "Laravel", experiance: "", fontSize: "h5" },
+      { name: "Nestjs", experiance: "", fontSize: "h5" },
 
       // { name: "@react-three/drei", experiance: "", fontSize: "h5" },
       // {

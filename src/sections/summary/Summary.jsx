@@ -3,9 +3,9 @@ import { portfolio } from "../header/info-content";
 import "./summary-styles.scss";
 export const Summary = () => (
   <div className="summary-styles">
-    <div className="head">Summary</div>
+    <div className="h3 bold">Summary</div>
     <div className="brek-items-from-left">
-      <div className="content">
+      <div className="content h5">
         I am a React/Three.js developer with experience in creating and
         supporting 3D viewer applications. I have a strong knowledge of
         JavaScript, WebGL, and animation. I am proficient in using

@@ -19,6 +19,7 @@ function App() {
   const handlePrint = useReactToPrint({
     content: () => componentRef.current,
     documentTitle: "Mohamd Almahdi",
+
     // suppressErrors:false
   });
 
@@ -42,16 +43,13 @@ function App() {
         {/* <hr /> */}
         {/* <Languages /> */}
         <hr />
-        <Courses />
+        <Courses /> 
 
-     
-
-<hr/>
-   {/* <br /> */}
-        <br />
+        <hr/>
+        
         <div className="end-contaienr">
           <a href={portfolio.link} target="_blank" className="end bold h4">
-            <div>To Check My Projects Pleast Visit My Portfolio</div>
+            <div>To Check My Projects Please Visit My Portfolio</div>
             {/* <div className="h5"> {portfolio.link}</div> */}
             <PortfolioSection />
           </a>

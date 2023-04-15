@@ -24,8 +24,8 @@ import classnames from "classnames";
 export const DigitalSkills = () => (
   <div className="digital-skills-styles">
     <hr />
-    <div className="h2 bold">Skills</div>
-    <div className="break" />
+    <div className="h3 bold">Skills</div>
+    {/* <div className="break" /> */}
     <div className="brek-items-from-left">
       {info_digital.map((item) => {
         return (
@@ -37,6 +37,7 @@ export const DigitalSkills = () => (
                   bold: tag?.bold,
                   // h5: true,
                   tag: true,
+                  // h5:true
                 },
                 tag.fontSize
               );

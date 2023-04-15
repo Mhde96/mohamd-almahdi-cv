@@ -1,3 +1,29 @@
 .education-styles{
-    
+    .time{
+        padding-left: 4px;
+        font-size: 10px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .specialty{
+        padding-left: 4px;
+  
+    }
+
+    .story{
+        font-size: 12px;
+    }
+
+    .test{
+        display: flex;
+    }
+    .collage{
+        display: flex;
+        flex-direction: row;
+        align-items: end;
+        justify-content: end;
+        flex: 1;
+        // background: red;
+    }
 }
