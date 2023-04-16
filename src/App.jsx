@@ -1,16 +1,13 @@
 import { DigitalSkills } from "./sections/digital-skills/DigitalSkills";
 import { Education } from "./sections/education/Education";
 import { Header } from "./sections/header/Header";
-import { Languages } from "./sections/languages/Languges";
 import { Summary } from "./sections/summary/Summary";
-import { Works } from "./sections/works/Works";
 import { useRef } from "react";
 import { Courses } from "./sections/courses/Courses";
 import { useReactToPrint } from "react-to-print";
 
 import "./print.scss";
 import { CompaniesSection } from "./sections/companies/CompaniesSection";
-import { ProjectsScection } from "./sections/projects/ProjectsScection";
 import { PortfolioSection } from "./sections/portfolio/PortfolioSection";
 import { portfolio } from "./sections/header/info-content";
 function App() {
@@ -43,9 +40,9 @@ function App() {
         {/* <hr /> */}
         {/* <Languages /> */}
         <hr />
-        <Courses /> 
+        {/* <Courses />  */}
 
-        <hr/>
+        {/* <hr/> */}
         
         <div className="end-contaienr">
           <a href={portfolio.link} target="_blank" className="end bold h4">

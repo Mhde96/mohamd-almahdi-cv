@@ -7,7 +7,7 @@ export const companiesData = [
     employmentType: "Full-time",
     responsibilities: [
       "Developing and maintained  web applications and responsive design and ensuring cross-browser compatibility using Reactjs",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Worked with WebGL/Three.js code rendering computational geometry Architectural Design",
       "Using ClickUp project mangment for ( Sprint Planning, Daily Scrum, Sprint Review, and Sprint Retrospective)",
     ],
     work: "Web Developer",
@@ -50,6 +50,8 @@ export const companiesData = [
     responsibilities: [
       "Developing web dashboard application using Reactjs",
       "Using Jira project management to Update the board daily and track progress",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+
     ],
   },
   {

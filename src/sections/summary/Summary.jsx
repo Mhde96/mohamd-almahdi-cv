@@ -1,5 +1,4 @@
-import { Contact } from "../header/Header";
-import { portfolio } from "../header/info-content";
+
 import "./summary-styles.scss";
 export const Summary = () => (
   <div className="summary-styles">
